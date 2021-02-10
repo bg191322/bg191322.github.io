@@ -1,0 +1,24 @@
+* {
+    background-color: #717171;
+}
+
+
+h3 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#input {
+    padding-left: 20px;
+}
+#fondo{
+    width: 90%;
+
+}
+
+@media screen and (max-width:991px) {
+    #fondo {
+        display: none;
+    }
+}
