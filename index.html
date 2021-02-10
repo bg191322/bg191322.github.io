@@ -11,12 +11,27 @@
 <link rel="stylesheet" href="css/inicio.css">
 <title>Inicio</title>
 </head>
-<body style="background-color: black;">
+<body style="background-color: black;" class="align-items-center">
 <div class="row">
     <div class="col-lg-6 col-xl-6">
-      <div class="align-items-center">
-          <img src="img/fondo.jpg" id="fondo" >
+      <div>
+          <img src="img/fondo.jpg" id="fondo">
       </div>
+    </div>
+    <div class="col-lg-6 col-xl-6 ">
+        <center>
+        <img src="img/logo.png" id="logo">
+        <h3>Inicio Sesión</h3>
+            <form action="" method="post">
+                <div class="form-group">
+                    <input id="input" class="form-control" type="text" name="email" aria-describedby="basic-addon3" placeholder="Correo Electronico"> 
+                    <input id="input" class="form-control" type="password" name="password" aria-describedby="basic-addon3" placeholder="Contraseña">
+                    
+                    <input type="submit" value="Iniciar" class="btn btn-danger btn btn-lg">
+                </div>
+            </form>
+        <a href="">Restablecer la contraseña</a>
+        </center>
     </div>
    
 
