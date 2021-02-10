@@ -32,19 +32,21 @@ input[value]{
     height: 650px;
     padding: 15px;
 }
-#logo{
-    width: 50%;
-    margin-top: 80px;
-   
-}
 a{
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
+a:hover{
+    color:white;
+}
 
 @media screen and (max-width:991px) {
     #fondo {
         display: none;
+    }
+    #logo{
+        width: 100%;
+        margin-top: 80px;     
     }
 }
