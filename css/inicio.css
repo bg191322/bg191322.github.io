@@ -11,14 +11,6 @@ h3 {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
-#input {
-    width:50%;
-    border-radius: 60px;
-    height: 50px;
-    margin-bottom: 20px;
-    text-align: center;
-}
 input[value]{
     border-radius: 40px;
     font-size: 15px;
@@ -46,9 +38,7 @@ a:hover{
         display: none;
     }
     #input {
-        width:100%;
         border-radius: 60px;
-        height: 50px;
         margin-bottom: 20px;
         text-align: center;
     }
