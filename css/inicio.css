@@ -45,6 +45,13 @@ a:hover{
     #fondo {
         display: none;
     }
+    #input {
+        width:100%;
+        border-radius: 60px;
+        height: 50px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
     #logo{
         width: 100%;
         margin-top: 80px;     
